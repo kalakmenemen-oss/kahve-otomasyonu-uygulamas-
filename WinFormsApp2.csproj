@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<!-- Windows Uygulama Denetimi engelini aşmak için eklenen zorunlu ayarlar -->
+		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<SignAssembly>false</SignAssembly>
+		<Optimize>false</Optimize>
+	</PropertyGroup>
+
+</Project>
